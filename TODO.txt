@@ -1,0 +1,4 @@
+- use signup page to create login page
+- Create card component
+- Create local games
+...multiplayer games

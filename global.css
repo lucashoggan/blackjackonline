@@ -1,14 +1,1 @@
-body {
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.65;
-  word-break: break-word;
-  font-kerning: auto;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  hyphens: auto;
-}
+@import"https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Quicksand:wght@300..700&display=swap";*{font-family:"DM Serif Text",serif;max-width:98vw}nav{border-bottom:2px solid #000;padding-left:.5rem;width:100vw;display:flex;justify-content:flex-start;align-items:center;gap:3rem}nav h2{padding-left:1rem}nav .pages{display:flex;justify-content:space-between;width:15rem}nav .pages a{text-decoration:none;color:#000}nav .pages a:hover{border-bottom:1px solid #000}main.signup{width:100%;padding:1rem;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:.25rem}main.signup input,main.signup button{font-family:Roboto,sans-serif;margin:.5rem;width:10rem;height:1.5rem}main.signup input{padding:.2rem;width:10rem}main.signup .title{letter-spacing:.1rem}main.signup .error-info{color:#720f0f;letter-spacing:.15rem}main.signup .login-link{font-family:Roboto,sans-serif}main.signup .login-link a{font-family:Roboto,sans-serif;text-decoration:none;color:#1e681e}main.signup .login-link a:hover{border-bottom:1px solid #000}main.games{width:100%;padding:1rem;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:.25rem}main.games .multi-choices{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;gap:1rem}main.games .multi-choices .create button,main.games .multi-choices .create input,main.games .multi-choices .join button,main.games .multi-choices .join input,main.games .multi-choices .local button,main.games .multi-choices .local input{font-family:Roboto,sans-serif;padding:.5rem}
